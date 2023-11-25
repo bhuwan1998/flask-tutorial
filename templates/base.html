@@ -7,6 +7,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}" />
+    <!-- same for javascript file to be attached here -->
     {% block head %}{% endblock %} <!-- This is a flask specific thing and a placeholder to insert our own data-->
   </head>
   <body>
